@@ -1,0 +1,146 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <title>Sticky Navbar Example</title>  
+  <style>  
+* {  
+  padding: 0;  
+  margin: 0;  
+}  
+
+body {
+  background-color: #9BCFD987; /* Professional Background */
+  padding-bottom: 80px; /* Footer ke liye jagah */
+}
+
+header {  
+  background:lightblue ;  
+  padding: 30px;  
+  text-align: center;
+
+}
+
+nav {  
+  background-color: lightsteelblue;  
+  color: black;  
+  padding: 20px;  
+  margin: 0;  
+  position: sticky;  
+  top:0;  
+  z-index: 1000;  
+  text-align: right;
+}  
+
+ul li {  
+  list-style: none;  
+  display: inline;  
+  padding: 10px;  
+  margin: 20px;  
+}  
+
+.container {  
+  padding: 20px;  
+  margin: 20px;  
+  border: 5px solid black;  
+  width: auto;  
+  height: 50vh;  
+  display: flex;  
+  flex-direction: row;
+  border-radius: 10px;
+  background-color: #7388B72E;
+  gap: 70px;  
+}
+.box1{  
+  border:5px solid black;  
+  width: 400vw;  
+  height: 45vh;  
+  margin: 10px;  
+  border-radius: 5px;
+  background-color: #B773A92E;
+  text-overflow: auto;
+}  
+.box2 {  
+  border: 5px solid black;  
+  width: 400vw;  
+  height: 45vh;  
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #B773A92E;
+  text-overflow: auto;
+}
+.box3 {
+  margin: 5px;
+  border: 5px solid black;
+  width: auto;
+  height: 30vh;
+  border-radius: 50px;
+  padding: 30px;
+text-align: center;
+font-family: serif;
+font-size: 30px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background: lightblue;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  
+  
+}
+
+
+.box1, .box2 {
+
+  overflow: auto;
+  padding: 10px;
+  text-shadow: honeydew;
+ /*  border: 2px solid black; */
+ /* width: 40vw;     40% of screen width
+  height: 45vh;
+  margin: 10px; */
+}
+</style>
+</head>  
+<body>  
+  <header>  
+    <h1>My Website</h1>  
+    <p>Scroll down to see sticky navbar</p>  
+  </header>    
+
+  <nav>  
+    <ul>  
+      <li>contact us</li>  
+      <li>home</li>  
+      <li>login</li>  
+      <li>sign up</li>  
+    </ul>  
+  </nav>    
+
+  <div class="container">  
+    <div class="box1">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tecetur adipiscing elit. ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo  ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Ut enim ad minim veniam, qui ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo s nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+</div>  
+    <div class="box2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex  ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo  ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequatctetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad ctetur adipiscing elipor incid.</div>    
+  </div>  
+
+  <div class="box3">
+  <h2> welcome to my first color full website <h2>
+  </div>    
+
+  <footer>  
+    <div class="footer">Created by Gautam</div>  
+  </footer>  
+</body> 
+</html>
